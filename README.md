@@ -1,39 +1,39 @@
 # Fine-Tuning an LLM for Retail Market Research
 
-**Author:** Olanrewaju Muili · **Course assessment:** SBA 928
+**Course assessment:** SBA 928
 
-This project builds an end-to-end market-research workflow on the
+This project builds an end-to-end market research workflow on the
 [UCI Online Retail dataset](https://archive.ics.uci.edu/dataset/352/online+retail).
 It turns real transaction data into market-research prompts, fine-tunes
 `google/flan-t5-small` on them, compares the original and fine-tuned models
 on held-out prompts, and assesses bias and fairness in the data and results.
 
-**Result:** exact-match accuracy on held-out prompts rose from **65.2%** to
+**Result:** accuracy on held-out prompts rose from **65.2%** to
 **87.0%** after two epochs of fine-tuning.
 
 ## Project structure
 
 ```
 SBA_928_Olanrewaju_Muili/
-├── pyproject.toml                # uv project configuration and dependencies
-├── uv.lock                       # locked dependency versions
-├── .python-version               # Python 3.9
+├── pyproject.toml                
+├── uv.lock                       
+├── .python-version               
 ├── data/
-│   └── online+retail.zip         # UCI Online Retail dataset (input)
+│   └── online+retail.zip         
 ├── src/sba_928_olanrewaju_muili/
-│   ├── __init__.py               # CLI entry point (main)
-│   ├── __main__.py               # enables `python -m sba_928_olanrewaju_muili`
-│   ├── config.py                 # paths and hyperparameters
-│   ├── data.py                   # Req. 1: loading, cleaning, statistics
-│   ├── prompts.py                # Req. 2: research records, prompt styles, split
-│   ├── model.py                  # Req. 3: model loading, generation, fine-tuning
-│   ├── evaluation.py             # Req. 4: original vs. fine-tuned comparison
-│   ├── bias.py                   # Req. 5–6: bias assessment, fairness strategies
-│   └── pipeline.py               # runs all stages end to end
-├── tests/                        # unit tests (pytest)
+│   ├── __init__.py               
+│   ├── __main__.py               
+│   ├── config.py                 
+│   ├── data.py                   
+│   ├── prompts.py                
+│   ├── model.py                  
+│   ├── evaluation.py             
+│   ├── bias.py                   
+│   └── pipeline.py               
+├── tests/                        
 ├── models/
-│   └── fine_tuned_model/         # fine-tuned model (weights generated on run)
-└── results/                      # generated CSV / JSON outputs
+│   └── fine_tuned_model/         
+└── results/                    
 ```
 
 ## Setup and running

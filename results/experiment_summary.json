@@ -1,0 +1,13 @@
+{
+  "dataset": "UCI Online Retail",
+  "original_rows": 541909,
+  "cleaned_rows": 530104,
+  "training_examples": 276,
+  "evaluation_examples": 23,
+  "model": "google/flan-t5-small",
+  "epochs": 2,
+  "original_accuracy": 65.21739130434783,
+  "fine_tuned_accuracy": 86.95652173913044,
+  "uk_transaction_percentage": 91.51468391108159,
+  "missing_customer_percentage": 24.926694334288598
+}

@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+.venv
+
+# macOS
+.DS_Store
+__MACOSX/
+
+
+data/*.xlsx
+
+results.zip
+results/Archive.zip
+
+models/**/*.safetensors
+results/cleaned_retail.csv
+.pytest_cache/

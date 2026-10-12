@@ -1,0 +1,3197 @@
+scenario,style,prompt,answer
+Product demand,direct,"Data:
+Product: JUMBO BAG STRAWBERRY
+Units sold: 17319
+Revenue: GBP 32,802.53
+
+Question: How many units of JUMBO BAG STRAWBERRY were sold?
+Answer:",17319
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: France
+Total units: 112103
+Total invoices: 392
+Average items per invoice: 285.98
+
+Research question: What was the average number of items per invoice in France?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",285.98
+External competitor analysis,structured,"Market Research Task
+
+Country: Portugal
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Portugal?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+External competitor analysis,structured,"Market Research Task
+
+Country: Channel Islands
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Channel Islands?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-06
+Previous revenue: GBP 761,739.90
+Current month: 2011-07
+Current revenue: GBP 719,221.19
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-07 compared with 2011-06?
+Give a concise answer:",decreased
+Product demand,structured,"Market Research Task
+
+Product: DOTCOM POSTAGE
+Units sold: 706
+Revenue: GBP 206,248.77
+
+Research question: How many units of DOTCOM POSTAGE were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",706
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Switzerland
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Switzerland?
+Give a concise answer:",Cannot determine market share from the available data.
+Consumer purchasing behavior,direct,"Data:
+Country: Norway
+Total units: 19336
+Total invoices: 36
+Average items per invoice: 537.11
+
+Question: What was the average number of items per invoice in Norway?
+Answer:",537.11
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Switzerland
+Total revenue: GBP 57,089.90
+Total units: 30629
+Total invoices: 54
+Average items per invoice: 567.20
+
+Question: What was the total sales revenue in Switzerland?
+Give a concise answer:","GBP 57,089.90"
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-05
+Previous revenue: GBP 770,536.02
+Current month: 2011-06
+Current revenue: GBP 761,739.90
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-06 compared with 2011-05?
+Give a concise answer:",decreased
+Product demand,structured,"Market Research Task
+
+Product: WOOD BLACK BOARD ANT WHITE FINISH
+Units sold: 6020
+Revenue: GBP 36,030.22
+
+Research question: How many units of WOOD BLACK BOARD ANT WHITE FINISH were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",6020
+Product demand,direct,"Data:
+Product: CHOCOLATE HOT WATER BOTTLE
+Units sold: 6025
+Revenue: GBP 32,866.18
+
+Question: How many units of CHOCOLATE HOT WATER BOTTLE were sold?
+Answer:",6025
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-07
+Previous revenue: GBP 719,221.19
+Current month: 2011-08
+Current revenue: GBP 759,138.38
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-08 compared with 2011-07?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",increased
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Denmark
+Total units: 8235
+Total invoices: 18
+Average items per invoice: 457.50
+
+Research question: What was the average number of items per invoice in Denmark?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",457.50
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-02
+Previous revenue: GBP 523,631.89
+Current month: 2011-03
+Current revenue: GBP 717,639.36
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-03 compared with 2011-02?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",increased
+Geographic market analysis,direct,"Data:
+Country: Netherlands
+Total revenue: GBP 285,446.34
+Total units: 200361
+Total invoices: 94
+Average items per invoice: 2131.50
+
+Question: What was the total sales revenue in Netherlands?
+Answer:","GBP 285,446.34"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: POSTAGE
+Units sold: 3150
+Revenue: GBP 78,101.88
+
+Question: How many units of POSTAGE were sold?
+Give a concise answer:",3150
+Geographic market analysis,direct,"Data:
+Country: France
+Total revenue: GBP 209,715.11
+Total units: 112103
+Total invoices: 392
+Average items per invoice: 285.98
+
+Question: What was the total sales revenue in France?
+Answer:","GBP 209,715.11"
+Market trends,direct,"Data:
+Previous month: 2011-06
+Previous revenue: GBP 761,739.90
+Current month: 2011-07
+Current revenue: GBP 719,221.19
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-07 compared with 2011-06?
+Answer:",decreased
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: PARTY BUNTING
+Product A revenue: GBP 99,504.33
+Product B: JUMBO BAG RED RETROSPOT
+Product B revenue: GBP 94,340.05
+
+Question: Which product generated more revenue?
+Give a concise answer:",PARTY BUNTING
+Geographic market analysis,structured,"Market Research Task
+
+Country: Japan
+Total revenue: GBP 37,416.37
+Total units: 26016
+Total invoices: 19
+Average items per invoice: 1369.26
+
+Research question: What was the total sales revenue in Japan?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 37,416.37"
+Product demand,structured,"Market Research Task
+
+Product: PAPER CRAFT , LITTLE BIRDIE
+Units sold: 80995
+Revenue: GBP 168,469.60
+
+Research question: How many units of PAPER CRAFT , LITTLE BIRDIE were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",80995
+Product demand,direct,"Data:
+Product: DOTCOM POSTAGE
+Units sold: 706
+Revenue: GBP 206,248.77
+
+Question: How many units of DOTCOM POSTAGE were sold?
+Answer:",706
+Geographic market analysis,structured,"Market Research Task
+
+Country: Channel Islands
+Total revenue: GBP 20,450.44
+Total units: 9491
+Total invoices: 26
+Average items per invoice: 365.04
+
+Research question: What was the total sales revenue in Channel Islands?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 20,450.44"
+Internal product competition,direct,"Data:
+Product A: JUMBO BAG PINK POLKADOT
+Product A revenue: GBP 42,436.24
+Product B: BLACK RECORD COVER FRAME
+Product B revenue: GBP 40,652.13
+
+Question: Which product generated more revenue?
+Answer:",JUMBO BAG PINK POLKADOT
+Market trends,direct,"Data:
+Previous month: 2011-09
+Previous revenue: GBP 1,058,590.17
+Current month: 2011-10
+Current revenue: GBP 1,154,979.30
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-10 compared with 2011-09?
+Answer:",increased
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Hong Kong
+Total revenue: GBP 15,691.80
+Total units: 4773
+Total invoices: 11
+Average items per invoice: 433.91
+
+Question: What was the total sales revenue in Hong Kong?
+Give a concise answer:","GBP 15,691.80"
+External competitor analysis,structured,"Market Research Task
+
+Country: Switzerland
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Switzerland?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: CHILLI LIGHTS
+Units sold: 10306
+Revenue: GBP 54,117.76
+
+Question: How many units of CHILLI LIGHTS were sold?
+Answer:",10306
+Internal product competition,structured,"Market Research Task
+
+Product A: SET OF 3 CAKE TINS PANTRY DESIGN
+Product A revenue: GBP 38,158.39
+Product B: JAM MAKING SET WITH JARS
+Product B revenue: GBP 37,128.88
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",SET OF 3 CAKE TINS PANTRY DESIGN
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: SET OF 3 CAKE TINS PANTRY DESIGN
+Product A revenue: GBP 38,158.39
+Product B: JAM MAKING SET WITH JARS
+Product B revenue: GBP 37,128.88
+
+Question: Which product generated more revenue?
+Give a concise answer:",SET OF 3 CAKE TINS PANTRY DESIGN
+Consumer purchasing behavior,direct,"Data:
+Country: Netherlands
+Total units: 200361
+Total invoices: 94
+Average items per invoice: 2131.50
+
+Question: What was the average number of items per invoice in Netherlands?
+Answer:",2131.50
+Geographic market analysis,direct,"Data:
+Country: Japan
+Total revenue: GBP 37,416.37
+Total units: 26016
+Total invoices: 19
+Average items per invoice: 1369.26
+
+Question: What was the total sales revenue in Japan?
+Answer:","GBP 37,416.37"
+External competitor analysis,structured,"Market Research Task
+
+Country: Italy
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Italy?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+External competitor analysis,direct,"Data:
+Country: Spain
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Spain?
+Answer:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: LUNCH BAG RED RETROSPOT
+Units sold: 19353
+Revenue: GBP 35,752.01
+
+Question: How many units of LUNCH BAG RED RETROSPOT were sold?
+Answer:",19353
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Switzerland
+Total units: 30629
+Total invoices: 54
+Average items per invoice: 567.20
+
+Research question: What was the average number of items per invoice in Switzerland?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",567.20
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Belgium
+Total units: 23237
+Total invoices: 98
+Average items per invoice: 237.11
+
+Question: What was the average number of items per invoice in Belgium?
+Give a concise answer:",237.11
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: United Kingdom
+Total units: 4662390
+Total invoices: 18019
+Average items per invoice: 258.75
+
+Research question: What was the average number of items per invoice in United Kingdom?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",258.75
+Consumer purchasing behavior,direct,"Data:
+Country: EIRE
+Total units: 147173
+Total invoices: 288
+Average items per invoice: 511.02
+
+Question: What was the average number of items per invoice in EIRE?
+Answer:",511.02
+Product demand,structured,"Market Research Task
+
+Product: JUMBO BAG PINK POLKADOT
+Units sold: 21465
+Revenue: GBP 42,436.24
+
+Research question: How many units of JUMBO BAG PINK POLKADOT were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",21465
+External competitor analysis,structured,"Market Research Task
+
+Country: Norway
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Norway?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Internal product competition,structured,"Market Research Task
+
+Product A: POSTAGE
+Product A revenue: GBP 78,101.88
+Product B: RABBIT NIGHT LIGHT
+Product B revenue: GBP 66,964.99
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",POSTAGE
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Germany
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Germany?
+Give a concise answer:",Cannot determine market share from the available data.
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-09
+Previous revenue: GBP 1,058,590.17
+Current month: 2011-10
+Current revenue: GBP 1,154,979.30
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-10 compared with 2011-09?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",increased
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Belgium
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Belgium?
+Give a concise answer:",Cannot determine market share from the available data.
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Denmark
+Total units: 8235
+Total invoices: 18
+Average items per invoice: 457.50
+
+Question: What was the average number of items per invoice in Denmark?
+Give a concise answer:",457.50
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: PAPER CRAFT , LITTLE BIRDIE
+Units sold: 80995
+Revenue: GBP 168,469.60
+
+Question: How many units of PAPER CRAFT , LITTLE BIRDIE were sold?
+Give a concise answer:",80995
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-01
+Previous revenue: GBP 691,364.56
+Current month: 2011-02
+Current revenue: GBP 523,631.89
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-02 compared with 2011-01?
+Give a concise answer:",decreased
+External competitor analysis,structured,"Market Research Task
+
+Country: Denmark
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Denmark?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-08
+Previous revenue: GBP 759,138.38
+Current month: 2011-09
+Current revenue: GBP 1,058,590.17
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-09 compared with 2011-08?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",increased
+Product demand,direct,"Data:
+Product: HOT WATER BOTTLE TEA AND SYMPATHY
+Units sold: 5747
+Revenue: GBP 33,002.59
+
+Question: How many units of HOT WATER BOTTLE TEA AND SYMPATHY were sold?
+Answer:",5747
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Portugal
+Total units: 16258
+Total invoices: 58
+Average items per invoice: 280.31
+
+Research question: What was the average number of items per invoice in Portugal?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",280.31
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: EIRE
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in EIRE?
+Give a concise answer:",Cannot determine market share from the available data.
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: Manual
+Units sold: 7225
+Revenue: GBP 78,112.82
+
+Question: How many units of Manual were sold?
+Give a concise answer:",7225
+Market trends,direct,"Data:
+Previous month: 2011-10
+Previous revenue: GBP 1,154,979.30
+Current month: 2011-11
+Current revenue: GBP 1,509,496.33
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-11 compared with 2011-10?
+Answer:",increased
+Product demand,structured,"Market Research Task
+
+Product: WHITE HANGING HEART T-LIGHT HOLDER
+Units sold: 37891
+Revenue: GBP 106,292.77
+
+Research question: How many units of WHITE HANGING HEART T-LIGHT HOLDER were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",37891
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: POSTAGE
+Product A revenue: GBP 78,101.88
+Product B: RABBIT NIGHT LIGHT
+Product B revenue: GBP 66,964.99
+
+Question: Which product generated more revenue?
+Give a concise answer:",POSTAGE
+Product demand,direct,"Data:
+Product: BLACK RECORD COVER FRAME
+Units sold: 11656
+Revenue: GBP 40,652.13
+
+Question: How many units of BLACK RECORD COVER FRAME were sold?
+Answer:",11656
+External competitor analysis,structured,"Market Research Task
+
+Country: France
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in France?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: PAPER CHAIN KIT 50'S CHRISTMAS
+Units sold: 19355
+Revenue: GBP 64,952.29
+
+Question: How many units of PAPER CHAIN KIT 50'S CHRISTMAS were sold?
+Give a concise answer:",19355
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Italy
+Total units: 8112
+Total invoices: 38
+Average items per invoice: 213.47
+
+Research question: What was the average number of items per invoice in Italy?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",213.47
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Spain
+Total units: 27940
+Total invoices: 90
+Average items per invoice: 310.44
+
+Question: What was the average number of items per invoice in Spain?
+Give a concise answer:",310.44
+External competitor analysis,direct,"Data:
+Country: France
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in France?
+Answer:",Cannot determine market share from the available data.
+Consumer purchasing behavior,direct,"Data:
+Country: Channel Islands
+Total units: 9491
+Total invoices: 26
+Average items per invoice: 365.04
+
+Question: What was the average number of items per invoice in Channel Islands?
+Answer:",365.04
+Geographic market analysis,direct,"Data:
+Country: Portugal
+Total revenue: GBP 33,747.10
+Total units: 16258
+Total invoices: 58
+Average items per invoice: 280.31
+
+Question: What was the total sales revenue in Portugal?
+Answer:","GBP 33,747.10"
+Product demand,direct,"Data:
+Product: PICNIC BASKET WICKER 60 PIECES
+Units sold: 61
+Revenue: GBP 39,619.50
+
+Question: How many units of PICNIC BASKET WICKER 60 PIECES were sold?
+Answer:",61
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: JUMBO BAG PINK POLKADOT
+Units sold: 21465
+Revenue: GBP 42,436.24
+
+Question: How many units of JUMBO BAG PINK POLKADOT were sold?
+Give a concise answer:",21465
+Geographic market analysis,structured,"Market Research Task
+
+Country: Hong Kong
+Total revenue: GBP 15,691.80
+Total units: 4773
+Total invoices: 11
+Average items per invoice: 433.91
+
+Research question: What was the total sales revenue in Hong Kong?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 15,691.80"
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Germany
+Total units: 119261
+Total invoices: 457
+Average items per invoice: 260.96
+
+Question: What was the average number of items per invoice in Germany?
+Give a concise answer:",260.96
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: EIRE
+Total revenue: GBP 283,453.96
+Total units: 147173
+Total invoices: 288
+Average items per invoice: 511.02
+
+Question: What was the total sales revenue in EIRE?
+Give a concise answer:","GBP 283,453.96"
+Market trends,direct,"Data:
+Previous month: 2011-06
+Previous revenue: GBP 761,739.90
+Current month: 2011-07
+Current revenue: GBP 719,221.19
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-07 compared with 2011-06?
+Answer:",decreased
+Internal product competition,structured,"Market Research Task
+
+Product A: CHILLI LIGHTS
+Product A revenue: GBP 54,117.76
+Product B: SPOTTY BUNTING
+Product B revenue: GBP 42,548.13
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",CHILLI LIGHTS
+Market trends,direct,"Data:
+Previous month: 2011-01
+Previous revenue: GBP 691,364.56
+Current month: 2011-02
+Current revenue: GBP 523,631.89
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-02 compared with 2011-01?
+Answer:",decreased
+External competitor analysis,structured,"Market Research Task
+
+Country: Belgium
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Belgium?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Finland
+Total units: 10704
+Total invoices: 41
+Average items per invoice: 261.07
+
+Question: What was the average number of items per invoice in Finland?
+Give a concise answer:",261.07
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Channel Islands
+Total revenue: GBP 20,450.44
+Total units: 9491
+Total invoices: 26
+Average items per invoice: 365.04
+
+Question: What was the total sales revenue in Channel Islands?
+Give a concise answer:","GBP 20,450.44"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: HEART OF WICKER SMALL
+Units sold: 17971
+Revenue: GBP 32,107.80
+
+Question: How many units of HEART OF WICKER SMALL were sold?
+Give a concise answer:",17971
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Netherlands
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Netherlands?
+Give a concise answer:",Cannot determine market share from the available data.
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-05
+Previous revenue: GBP 770,536.02
+Current month: 2011-06
+Current revenue: GBP 761,739.90
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-06 compared with 2011-05?
+Give a concise answer:",decreased
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: JAM MAKING SET WITH JARS
+Units sold: 8706
+Revenue: GBP 37,128.88
+
+Question: How many units of JAM MAKING SET WITH JARS were sold?
+Give a concise answer:",8706
+Internal product competition,structured,"Market Research Task
+
+Product A: PAPER CRAFT , LITTLE BIRDIE
+Product A revenue: GBP 168,469.60
+Product B: WHITE HANGING HEART T-LIGHT HOLDER
+Product B revenue: GBP 106,292.77
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","PAPER CRAFT , LITTLE BIRDIE"
+Geographic market analysis,structured,"Market Research Task
+
+Country: Switzerland
+Total revenue: GBP 57,089.90
+Total units: 30629
+Total invoices: 54
+Average items per invoice: 567.20
+
+Research question: What was the total sales revenue in Switzerland?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 57,089.90"
+External competitor analysis,structured,"Market Research Task
+
+Country: United Kingdom
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in United Kingdom?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: HEART OF WICKER SMALL
+Units sold: 17971
+Revenue: GBP 32,107.80
+
+Question: How many units of HEART OF WICKER SMALL were sold?
+Answer:",17971
+Geographic market analysis,direct,"Data:
+Country: Finland
+Total revenue: GBP 22,546.08
+Total units: 10704
+Total invoices: 41
+Average items per invoice: 261.07
+
+Question: What was the total sales revenue in Finland?
+Answer:","GBP 22,546.08"
+Geographic market analysis,structured,"Market Research Task
+
+Country: EIRE
+Total revenue: GBP 283,453.96
+Total units: 147173
+Total invoices: 288
+Average items per invoice: 511.02
+
+Research question: What was the total sales revenue in EIRE?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 283,453.96"
+Product demand,structured,"Market Research Task
+
+Product: PARTY BUNTING
+Units sold: 18295
+Revenue: GBP 99,504.33
+
+Research question: How many units of PARTY BUNTING were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",18295
+Market trends,direct,"Data:
+Previous month: 2011-04
+Previous revenue: GBP 537,808.62
+Current month: 2011-05
+Current revenue: GBP 770,536.02
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-05 compared with 2011-04?
+Answer:",increased
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: DOTCOM POSTAGE
+Product A revenue: GBP 206,248.77
+Product B: REGENCY CAKESTAND 3 TIER
+Product B revenue: GBP 174,484.74
+
+Question: Which product generated more revenue?
+Give a concise answer:",DOTCOM POSTAGE
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Japan
+Total revenue: GBP 37,416.37
+Total units: 26016
+Total invoices: 19
+Average items per invoice: 1369.26
+
+Question: What was the total sales revenue in Japan?
+Give a concise answer:","GBP 37,416.37"
+Product demand,direct,"Data:
+Product: JAM MAKING SET WITH JARS
+Units sold: 8706
+Revenue: GBP 37,128.88
+
+Question: How many units of JAM MAKING SET WITH JARS were sold?
+Answer:",8706
+Geographic market analysis,structured,"Market Research Task
+
+Country: Norway
+Total revenue: GBP 36,165.44
+Total units: 19336
+Total invoices: 36
+Average items per invoice: 537.11
+
+Research question: What was the total sales revenue in Norway?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 36,165.44"
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Norway
+Total units: 19336
+Total invoices: 36
+Average items per invoice: 537.11
+
+Research question: What was the average number of items per invoice in Norway?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",537.11
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Portugal
+Total units: 16258
+Total invoices: 58
+Average items per invoice: 280.31
+
+Question: What was the average number of items per invoice in Portugal?
+Give a concise answer:",280.31
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Japan
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Japan?
+Give a concise answer:",Cannot determine market share from the available data.
+External competitor analysis,direct,"Data:
+Country: Italy
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Italy?
+Answer:",Cannot determine market share from the available data.
+Market trends,direct,"Data:
+Previous month: 2011-01
+Previous revenue: GBP 691,364.56
+Current month: 2011-02
+Current revenue: GBP 523,631.89
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-02 compared with 2011-01?
+Answer:",decreased
+Consumer purchasing behavior,direct,"Data:
+Country: Switzerland
+Total units: 30629
+Total invoices: 54
+Average items per invoice: 567.20
+
+Question: What was the average number of items per invoice in Switzerland?
+Answer:",567.20
+Geographic market analysis,direct,"Data:
+Country: Germany
+Total revenue: GBP 228,867.14
+Total units: 119261
+Total invoices: 457
+Average items per invoice: 260.96
+
+Question: What was the total sales revenue in Germany?
+Answer:","GBP 228,867.14"
+Product demand,structured,"Market Research Task
+
+Product: JAM MAKING SET WITH JARS
+Units sold: 8706
+Revenue: GBP 37,128.88
+
+Research question: How many units of JAM MAKING SET WITH JARS were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",8706
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Germany
+Total units: 119261
+Total invoices: 457
+Average items per invoice: 260.96
+
+Research question: What was the average number of items per invoice in Germany?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",260.96
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Hong Kong
+Total units: 4773
+Total invoices: 11
+Average items per invoice: 433.91
+
+Research question: What was the average number of items per invoice in Hong Kong?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",433.91
+External competitor analysis,direct,"Data:
+Country: United Kingdom
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in United Kingdom?
+Answer:",Cannot determine market share from the available data.
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: PICNIC BASKET WICKER 60 PIECES
+Product A revenue: GBP 39,619.50
+Product B: DOORMAT KEEP CALM AND COME IN
+Product B revenue: GBP 38,166.64
+
+Question: Which product generated more revenue?
+Give a concise answer:",PICNIC BASKET WICKER 60 PIECES
+Product demand,structured,"Market Research Task
+
+Product: SPOTTY BUNTING
+Units sold: 8327
+Revenue: GBP 42,548.13
+
+Research question: How many units of SPOTTY BUNTING were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",8327
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Netherlands
+Total revenue: GBP 285,446.34
+Total units: 200361
+Total invoices: 94
+Average items per invoice: 2131.50
+
+Question: What was the total sales revenue in Netherlands?
+Give a concise answer:","GBP 285,446.34"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: MEDIUM CERAMIC TOP STORAGE JAR
+Units sold: 78033
+Revenue: GBP 81,700.92
+
+Question: How many units of MEDIUM CERAMIC TOP STORAGE JAR were sold?
+Give a concise answer:",78033
+Consumer purchasing behavior,direct,"Data:
+Country: United Kingdom
+Total units: 4662390
+Total invoices: 18019
+Average items per invoice: 258.75
+
+Question: What was the average number of items per invoice in United Kingdom?
+Answer:",258.75
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-06
+Previous revenue: GBP 761,739.90
+Current month: 2011-07
+Current revenue: GBP 719,221.19
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-07 compared with 2011-06?
+Give a concise answer:",decreased
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Switzerland
+Total units: 30629
+Total invoices: 54
+Average items per invoice: 567.20
+
+Question: What was the average number of items per invoice in Switzerland?
+Give a concise answer:",567.20
+Product demand,structured,"Market Research Task
+
+Product: CHOCOLATE HOT WATER BOTTLE
+Units sold: 6025
+Revenue: GBP 32,866.18
+
+Research question: How many units of CHOCOLATE HOT WATER BOTTLE were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",6025
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Hong Kong
+Total units: 4773
+Total invoices: 11
+Average items per invoice: 433.91
+
+Question: What was the average number of items per invoice in Hong Kong?
+Give a concise answer:",433.91
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: CHILLI LIGHTS
+Units sold: 10306
+Revenue: GBP 54,117.76
+
+Question: How many units of CHILLI LIGHTS were sold?
+Give a concise answer:",10306
+Product demand,direct,"Data:
+Product: POPCORN HOLDER
+Units sold: 36761
+Revenue: GBP 34,298.87
+
+Question: How many units of POPCORN HOLDER were sold?
+Answer:",36761
+Consumer purchasing behavior,direct,"Data:
+Country: Japan
+Total units: 26016
+Total invoices: 19
+Average items per invoice: 1369.26
+
+Question: What was the average number of items per invoice in Japan?
+Answer:",1369.26
+Product demand,structured,"Market Research Task
+
+Product: HOT WATER BOTTLE TEA AND SYMPATHY
+Units sold: 5747
+Revenue: GBP 33,002.59
+
+Research question: How many units of HOT WATER BOTTLE TEA AND SYMPATHY were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",5747
+Product demand,structured,"Market Research Task
+
+Product: POPCORN HOLDER
+Units sold: 36761
+Revenue: GBP 34,298.87
+
+Research question: How many units of POPCORN HOLDER were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",36761
+Product demand,direct,"Data:
+Product: JUMBO BAG PINK POLKADOT
+Units sold: 21465
+Revenue: GBP 42,436.24
+
+Question: How many units of JUMBO BAG PINK POLKADOT were sold?
+Answer:",21465
+Geographic market analysis,structured,"Market Research Task
+
+Country: Portugal
+Total revenue: GBP 33,747.10
+Total units: 16258
+Total invoices: 58
+Average items per invoice: 280.31
+
+Research question: What was the total sales revenue in Portugal?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 33,747.10"
+Geographic market analysis,structured,"Market Research Task
+
+Country: United Kingdom
+Total revenue: GBP 9,025,222.08
+Total units: 4662390
+Total invoices: 18019
+Average items per invoice: 258.75
+
+Research question: What was the total sales revenue in United Kingdom?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 9,025,222.08"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: SPOTTY BUNTING
+Units sold: 8327
+Revenue: GBP 42,548.13
+
+Question: How many units of SPOTTY BUNTING were sold?
+Give a concise answer:",8327
+Geographic market analysis,direct,"Data:
+Country: Norway
+Total revenue: GBP 36,165.44
+Total units: 19336
+Total invoices: 36
+Average items per invoice: 537.11
+
+Question: What was the total sales revenue in Norway?
+Answer:","GBP 36,165.44"
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-05
+Previous revenue: GBP 770,536.02
+Current month: 2011-06
+Current revenue: GBP 761,739.90
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-06 compared with 2011-05?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",decreased
+Product demand,structured,"Market Research Task
+
+Product: SET OF 3 CAKE TINS PANTRY DESIGN
+Units sold: 7493
+Revenue: GBP 38,158.39
+
+Research question: How many units of SET OF 3 CAKE TINS PANTRY DESIGN were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",7493
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: EIRE
+Total units: 147173
+Total invoices: 288
+Average items per invoice: 511.02
+
+Research question: What was the average number of items per invoice in EIRE?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",511.02
+Internal product competition,structured,"Market Research Task
+
+Product A: DOTCOM POSTAGE
+Product A revenue: GBP 206,248.77
+Product B: REGENCY CAKESTAND 3 TIER
+Product B revenue: GBP 174,484.74
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",DOTCOM POSTAGE
+Geographic market analysis,direct,"Data:
+Country: United Kingdom
+Total revenue: GBP 9,025,222.08
+Total units: 4662390
+Total invoices: 18019
+Average items per invoice: 258.75
+
+Question: What was the total sales revenue in United Kingdom?
+Answer:","GBP 9,025,222.08"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: RABBIT NIGHT LIGHT
+Units sold: 30788
+Revenue: GBP 66,964.99
+
+Question: How many units of RABBIT NIGHT LIGHT were sold?
+Give a concise answer:",30788
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-01
+Previous revenue: GBP 691,364.56
+Current month: 2011-02
+Current revenue: GBP 523,631.89
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-02 compared with 2011-01?
+Give a concise answer:",decreased
+Product demand,direct,"Data:
+Product: JUMBO BAG RED RETROSPOT
+Units sold: 48474
+Revenue: GBP 94,340.05
+
+Question: How many units of JUMBO BAG RED RETROSPOT were sold?
+Answer:",48474
+Consumer purchasing behavior,direct,"Data:
+Country: Finland
+Total units: 10704
+Total invoices: 41
+Average items per invoice: 261.07
+
+Question: What was the average number of items per invoice in Finland?
+Answer:",261.07
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-06
+Previous revenue: GBP 761,739.90
+Current month: 2011-07
+Current revenue: GBP 719,221.19
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-07 compared with 2011-06?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",decreased
+Market trends,direct,"Data:
+Previous month: 2011-02
+Previous revenue: GBP 523,631.89
+Current month: 2011-03
+Current revenue: GBP 717,639.36
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-03 compared with 2011-02?
+Answer:",increased
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: EIRE
+Total units: 147173
+Total invoices: 288
+Average items per invoice: 511.02
+
+Question: What was the average number of items per invoice in EIRE?
+Give a concise answer:",511.02
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: WOOD BLACK BOARD ANT WHITE FINISH
+Units sold: 6020
+Revenue: GBP 36,030.22
+
+Question: How many units of WOOD BLACK BOARD ANT WHITE FINISH were sold?
+Give a concise answer:",6020
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Netherlands
+Total units: 200361
+Total invoices: 94
+Average items per invoice: 2131.50
+
+Question: What was the average number of items per invoice in Netherlands?
+Give a concise answer:",2131.50
+Internal product competition,direct,"Data:
+Product A: PARTY BUNTING
+Product A revenue: GBP 99,504.33
+Product B: JUMBO BAG RED RETROSPOT
+Product B revenue: GBP 94,340.05
+
+Question: Which product generated more revenue?
+Answer:",PARTY BUNTING
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Channel Islands
+Total units: 9491
+Total invoices: 26
+Average items per invoice: 365.04
+
+Research question: What was the average number of items per invoice in Channel Islands?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",365.04
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Norway
+Total revenue: GBP 36,165.44
+Total units: 19336
+Total invoices: 36
+Average items per invoice: 537.11
+
+Question: What was the total sales revenue in Norway?
+Give a concise answer:","GBP 36,165.44"
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Finland
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Finland?
+Give a concise answer:",Cannot determine market share from the available data.
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: PARTY BUNTING
+Units sold: 18295
+Revenue: GBP 99,504.33
+
+Question: How many units of PARTY BUNTING were sold?
+Give a concise answer:",18295
+External competitor analysis,structured,"Market Research Task
+
+Country: Germany
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Germany?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: RABBIT NIGHT LIGHT
+Units sold: 30788
+Revenue: GBP 66,964.99
+
+Question: How many units of RABBIT NIGHT LIGHT were sold?
+Answer:",30788
+Product demand,structured,"Market Research Task
+
+Product: PICNIC BASKET WICKER 60 PIECES
+Units sold: 61
+Revenue: GBP 39,619.50
+
+Research question: How many units of PICNIC BASKET WICKER 60 PIECES were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",61
+Market trends,direct,"Data:
+Previous month: 2011-05
+Previous revenue: GBP 770,536.02
+Current month: 2011-06
+Current revenue: GBP 761,739.90
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-06 compared with 2011-05?
+Answer:",decreased
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-07
+Previous revenue: GBP 719,221.19
+Current month: 2011-08
+Current revenue: GBP 759,138.38
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-08 compared with 2011-07?
+Give a concise answer:",increased
+Product demand,structured,"Market Research Task
+
+Product: CHILLI LIGHTS
+Units sold: 10306
+Revenue: GBP 54,117.76
+
+Research question: How many units of CHILLI LIGHTS were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",10306
+External competitor analysis,structured,"Market Research Task
+
+Country: Netherlands
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Netherlands?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Internal product competition,structured,"Market Research Task
+
+Product A: PARTY BUNTING
+Product A revenue: GBP 99,504.33
+Product B: JUMBO BAG RED RETROSPOT
+Product B revenue: GBP 94,340.05
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",PARTY BUNTING
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Italy
+Total units: 8112
+Total invoices: 38
+Average items per invoice: 213.47
+
+Question: What was the average number of items per invoice in Italy?
+Give a concise answer:",213.47
+Product demand,structured,"Market Research Task
+
+Product: LUNCH BAG RED RETROSPOT
+Units sold: 19353
+Revenue: GBP 35,752.01
+
+Research question: How many units of LUNCH BAG RED RETROSPOT were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",19353
+Geographic market analysis,direct,"Data:
+Country: Denmark
+Total revenue: GBP 18,955.34
+Total units: 8235
+Total invoices: 18
+Average items per invoice: 457.50
+
+Question: What was the total sales revenue in Denmark?
+Answer:","GBP 18,955.34"
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-02
+Previous revenue: GBP 523,631.89
+Current month: 2011-03
+Current revenue: GBP 717,639.36
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-03 compared with 2011-02?
+Give a concise answer:",increased
+Product demand,direct,"Data:
+Product: WOOD BLACK BOARD ANT WHITE FINISH
+Units sold: 6020
+Revenue: GBP 36,030.22
+
+Question: How many units of WOOD BLACK BOARD ANT WHITE FINISH were sold?
+Answer:",6020
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: France
+Total revenue: GBP 209,715.11
+Total units: 112103
+Total invoices: 392
+Average items per invoice: 285.98
+
+Question: What was the total sales revenue in France?
+Give a concise answer:","GBP 209,715.11"
+Internal product competition,direct,"Data:
+Product A: PICNIC BASKET WICKER 60 PIECES
+Product A revenue: GBP 39,619.50
+Product B: DOORMAT KEEP CALM AND COME IN
+Product B revenue: GBP 38,166.64
+
+Question: Which product generated more revenue?
+Answer:",PICNIC BASKET WICKER 60 PIECES
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-05
+Previous revenue: GBP 770,536.02
+Current month: 2011-06
+Current revenue: GBP 761,739.90
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-06 compared with 2011-05?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",decreased
+Geographic market analysis,structured,"Market Research Task
+
+Country: Netherlands
+Total revenue: GBP 285,446.34
+Total units: 200361
+Total invoices: 94
+Average items per invoice: 2131.50
+
+Research question: What was the total sales revenue in Netherlands?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 285,446.34"
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Channel Islands
+Total units: 9491
+Total invoices: 26
+Average items per invoice: 365.04
+
+Question: What was the average number of items per invoice in Channel Islands?
+Give a concise answer:",365.04
+External competitor analysis,direct,"Data:
+Country: Denmark
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Denmark?
+Answer:",Cannot determine market share from the available data.
+Market trends,direct,"Data:
+Previous month: 2011-08
+Previous revenue: GBP 759,138.38
+Current month: 2011-09
+Current revenue: GBP 1,058,590.17
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-09 compared with 2011-08?
+Answer:",increased
+External competitor analysis,direct,"Data:
+Country: Netherlands
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Netherlands?
+Answer:",Cannot determine market share from the available data.
+Internal product competition,direct,"Data:
+Product A: SET OF 3 CAKE TINS PANTRY DESIGN
+Product A revenue: GBP 38,158.39
+Product B: JAM MAKING SET WITH JARS
+Product B revenue: GBP 37,128.88
+
+Question: Which product generated more revenue?
+Answer:",SET OF 3 CAKE TINS PANTRY DESIGN
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: PAPER CRAFT , LITTLE BIRDIE
+Product A revenue: GBP 168,469.60
+Product B: WHITE HANGING HEART T-LIGHT HOLDER
+Product B revenue: GBP 106,292.77
+
+Question: Which product generated more revenue?
+Give a concise answer:","PAPER CRAFT , LITTLE BIRDIE"
+External competitor analysis,structured,"Market Research Task
+
+Country: Finland
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Finland?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Consumer purchasing behavior,direct,"Data:
+Country: Portugal
+Total units: 16258
+Total invoices: 58
+Average items per invoice: 280.31
+
+Question: What was the average number of items per invoice in Portugal?
+Answer:",280.31
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Portugal
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Portugal?
+Give a concise answer:",Cannot determine market share from the available data.
+Product demand,structured,"Market Research Task
+
+Product: POSTAGE
+Units sold: 3150
+Revenue: GBP 78,101.88
+
+Research question: How many units of POSTAGE were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",3150
+External competitor analysis,direct,"Data:
+Country: Finland
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Finland?
+Answer:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: Manual
+Units sold: 7225
+Revenue: GBP 78,112.82
+
+Question: How many units of Manual were sold?
+Answer:",7225
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-01
+Previous revenue: GBP 691,364.56
+Current month: 2011-02
+Current revenue: GBP 523,631.89
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-02 compared with 2011-01?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",decreased
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Finland
+Total units: 10704
+Total invoices: 41
+Average items per invoice: 261.07
+
+Research question: What was the average number of items per invoice in Finland?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",261.07
+Product demand,direct,"Data:
+Product: PAPER CHAIN KIT 50'S CHRISTMAS
+Units sold: 19355
+Revenue: GBP 64,952.29
+
+Question: How many units of PAPER CHAIN KIT 50'S CHRISTMAS were sold?
+Answer:",19355
+Geographic market analysis,direct,"Data:
+Country: Hong Kong
+Total revenue: GBP 15,691.80
+Total units: 4773
+Total invoices: 11
+Average items per invoice: 433.91
+
+Question: What was the total sales revenue in Hong Kong?
+Answer:","GBP 15,691.80"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: WHITE HANGING HEART T-LIGHT HOLDER
+Units sold: 37891
+Revenue: GBP 106,292.77
+
+Question: How many units of WHITE HANGING HEART T-LIGHT HOLDER were sold?
+Give a concise answer:",37891
+Consumer purchasing behavior,direct,"Data:
+Country: Italy
+Total units: 8112
+Total invoices: 38
+Average items per invoice: 213.47
+
+Question: What was the average number of items per invoice in Italy?
+Answer:",213.47
+Geographic market analysis,direct,"Data:
+Country: Switzerland
+Total revenue: GBP 57,089.90
+Total units: 30629
+Total invoices: 54
+Average items per invoice: 567.20
+
+Question: What was the total sales revenue in Switzerland?
+Answer:","GBP 57,089.90"
+Internal product competition,direct,"Data:
+Product A: CHILLI LIGHTS
+Product A revenue: GBP 54,117.76
+Product B: SPOTTY BUNTING
+Product B revenue: GBP 42,548.13
+
+Question: Which product generated more revenue?
+Answer:",CHILLI LIGHTS
+Consumer purchasing behavior,direct,"Data:
+Country: Denmark
+Total units: 8235
+Total invoices: 18
+Average items per invoice: 457.50
+
+Question: What was the average number of items per invoice in Denmark?
+Answer:",457.50
+External competitor analysis,direct,"Data:
+Country: Germany
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Germany?
+Answer:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: MEDIUM CERAMIC TOP STORAGE JAR
+Units sold: 78033
+Revenue: GBP 81,700.92
+
+Question: How many units of MEDIUM CERAMIC TOP STORAGE JAR were sold?
+Answer:",78033
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Japan
+Total units: 26016
+Total invoices: 19
+Average items per invoice: 1369.26
+
+Question: What was the average number of items per invoice in Japan?
+Give a concise answer:",1369.26
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-10
+Previous revenue: GBP 1,154,979.30
+Current month: 2011-11
+Current revenue: GBP 1,509,496.33
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-11 compared with 2011-10?
+Give a concise answer:",increased
+Geographic market analysis,direct,"Data:
+Country: Belgium
+Total revenue: GBP 41,196.34
+Total units: 23237
+Total invoices: 98
+Average items per invoice: 237.11
+
+Question: What was the total sales revenue in Belgium?
+Answer:","GBP 41,196.34"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: LUNCH BAG RED RETROSPOT
+Units sold: 19353
+Revenue: GBP 35,752.01
+
+Question: How many units of LUNCH BAG RED RETROSPOT were sold?
+Give a concise answer:",19353
+Consumer purchasing behavior,direct,"Data:
+Country: Hong Kong
+Total units: 4773
+Total invoices: 11
+Average items per invoice: 433.91
+
+Question: What was the average number of items per invoice in Hong Kong?
+Answer:",433.91
+External competitor analysis,direct,"Data:
+Country: Japan
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Japan?
+Answer:",Cannot determine market share from the available data.
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-08
+Previous revenue: GBP 759,138.38
+Current month: 2011-09
+Current revenue: GBP 1,058,590.17
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-09 compared with 2011-08?
+Give a concise answer:",increased
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Spain
+Total units: 27940
+Total invoices: 90
+Average items per invoice: 310.44
+
+Research question: What was the average number of items per invoice in Spain?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",310.44
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Denmark
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Denmark?
+Give a concise answer:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: PAPER CRAFT , LITTLE BIRDIE
+Units sold: 80995
+Revenue: GBP 168,469.60
+
+Question: How many units of PAPER CRAFT , LITTLE BIRDIE were sold?
+Answer:",80995
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Belgium
+Total units: 23237
+Total invoices: 98
+Average items per invoice: 237.11
+
+Research question: What was the average number of items per invoice in Belgium?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",237.11
+External competitor analysis,structured,"Market Research Task
+
+Country: Spain
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Spain?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: United Kingdom
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in United Kingdom?
+Give a concise answer:",Cannot determine market share from the available data.
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: POPCORN HOLDER
+Units sold: 36761
+Revenue: GBP 34,298.87
+
+Question: How many units of POPCORN HOLDER were sold?
+Give a concise answer:",36761
+Internal product competition,direct,"Data:
+Product A: PAPER CRAFT , LITTLE BIRDIE
+Product A revenue: GBP 168,469.60
+Product B: WHITE HANGING HEART T-LIGHT HOLDER
+Product B revenue: GBP 106,292.77
+
+Question: Which product generated more revenue?
+Answer:","PAPER CRAFT , LITTLE BIRDIE"
+Product demand,structured,"Market Research Task
+
+Product: PAPER CHAIN KIT 50'S CHRISTMAS
+Units sold: 19355
+Revenue: GBP 64,952.29
+
+Research question: How many units of PAPER CHAIN KIT 50'S CHRISTMAS were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",19355
+Market trends,direct,"Data:
+Previous month: 2011-05
+Previous revenue: GBP 770,536.02
+Current month: 2011-06
+Current revenue: GBP 761,739.90
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-06 compared with 2011-05?
+Answer:",decreased
+External competitor analysis,structured,"Market Research Task
+
+Country: Hong Kong
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Hong Kong?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: POSTAGE
+Units sold: 3150
+Revenue: GBP 78,101.88
+
+Question: How many units of POSTAGE were sold?
+Answer:",3150
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Japan
+Total units: 26016
+Total invoices: 19
+Average items per invoice: 1369.26
+
+Research question: What was the average number of items per invoice in Japan?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",1369.26
+Internal product competition,direct,"Data:
+Product A: POSTAGE
+Product A revenue: GBP 78,101.88
+Product B: RABBIT NIGHT LIGHT
+Product B revenue: GBP 66,964.99
+
+Question: Which product generated more revenue?
+Answer:",POSTAGE
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Germany
+Total revenue: GBP 228,867.14
+Total units: 119261
+Total invoices: 457
+Average items per invoice: 260.96
+
+Question: What was the total sales revenue in Germany?
+Give a concise answer:","GBP 228,867.14"
+Product demand,structured,"Market Research Task
+
+Product: Manual
+Units sold: 7225
+Revenue: GBP 78,112.82
+
+Research question: How many units of Manual were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",7225
+Internal product competition,structured,"Market Research Task
+
+Product A: PICNIC BASKET WICKER 60 PIECES
+Product A revenue: GBP 39,619.50
+Product B: DOORMAT KEEP CALM AND COME IN
+Product B revenue: GBP 38,166.64
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",PICNIC BASKET WICKER 60 PIECES
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: HOT WATER BOTTLE TEA AND SYMPATHY
+Units sold: 5747
+Revenue: GBP 33,002.59
+
+Question: How many units of HOT WATER BOTTLE TEA AND SYMPATHY were sold?
+Give a concise answer:",5747
+Consumer purchasing behavior,direct,"Data:
+Country: Spain
+Total units: 27940
+Total invoices: 90
+Average items per invoice: 310.44
+
+Question: What was the average number of items per invoice in Spain?
+Answer:",310.44
+Market trends,direct,"Data:
+Previous month: 2011-07
+Previous revenue: GBP 719,221.19
+Current month: 2011-08
+Current revenue: GBP 759,138.38
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-08 compared with 2011-07?
+Answer:",increased
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: United Kingdom
+Total revenue: GBP 9,025,222.08
+Total units: 4662390
+Total invoices: 18019
+Average items per invoice: 258.75
+
+Question: What was the total sales revenue in United Kingdom?
+Give a concise answer:","GBP 9,025,222.08"
+Geographic market analysis,direct,"Data:
+Country: Italy
+Total revenue: GBP 17,483.24
+Total units: 8112
+Total invoices: 38
+Average items per invoice: 213.47
+
+Question: What was the total sales revenue in Italy?
+Answer:","GBP 17,483.24"
+Product demand,structured,"Market Research Task
+
+Product: RABBIT NIGHT LIGHT
+Units sold: 30788
+Revenue: GBP 66,964.99
+
+Research question: How many units of RABBIT NIGHT LIGHT were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",30788
+Geographic market analysis,structured,"Market Research Task
+
+Country: Spain
+Total revenue: GBP 61,577.11
+Total units: 27940
+Total invoices: 90
+Average items per invoice: 310.44
+
+Research question: What was the total sales revenue in Spain?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 61,577.11"
+Product demand,structured,"Market Research Task
+
+Product: HEART OF WICKER SMALL
+Units sold: 17971
+Revenue: GBP 32,107.80
+
+Research question: How many units of HEART OF WICKER SMALL were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",17971
+External competitor analysis,direct,"Data:
+Country: Hong Kong
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Hong Kong?
+Answer:",Cannot determine market share from the available data.
+Consumer purchasing behavior,structured,"Market Research Task
+
+Country: Netherlands
+Total units: 200361
+Total invoices: 94
+Average items per invoice: 2131.50
+
+Research question: What was the average number of items per invoice in Netherlands?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",2131.50
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Norway
+Total units: 19336
+Total invoices: 36
+Average items per invoice: 537.11
+
+Question: What was the average number of items per invoice in Norway?
+Give a concise answer:",537.11
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Spain
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Spain?
+Give a concise answer:",Cannot determine market share from the available data.
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Denmark
+Total revenue: GBP 18,955.34
+Total units: 8235
+Total invoices: 18
+Average items per invoice: 457.50
+
+Question: What was the total sales revenue in Denmark?
+Give a concise answer:","GBP 18,955.34"
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: CHILLI LIGHTS
+Product A revenue: GBP 54,117.76
+Product B: SPOTTY BUNTING
+Product B revenue: GBP 42,548.13
+
+Question: Which product generated more revenue?
+Give a concise answer:",CHILLI LIGHTS
+Consumer purchasing behavior,direct,"Data:
+Country: Belgium
+Total units: 23237
+Total invoices: 98
+Average items per invoice: 237.11
+
+Question: What was the average number of items per invoice in Belgium?
+Answer:",237.11
+External competitor analysis,direct,"Data:
+Country: Norway
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Norway?
+Answer:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: SPOTTY BUNTING
+Units sold: 8327
+Revenue: GBP 42,548.13
+
+Question: How many units of SPOTTY BUNTING were sold?
+Answer:",8327
+External competitor analysis,direct,"Data:
+Country: EIRE
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in EIRE?
+Answer:",Cannot determine market share from the available data.
+Product demand,direct,"Data:
+Product: PARTY BUNTING
+Units sold: 18295
+Revenue: GBP 99,504.33
+
+Question: How many units of PARTY BUNTING were sold?
+Answer:",18295
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: France
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in France?
+Give a concise answer:",Cannot determine market share from the available data.
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Norway
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Norway?
+Give a concise answer:",Cannot determine market share from the available data.
+Geographic market analysis,structured,"Market Research Task
+
+Country: Germany
+Total revenue: GBP 228,867.14
+Total units: 119261
+Total invoices: 457
+Average items per invoice: 260.96
+
+Research question: What was the total sales revenue in Germany?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 228,867.14"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: SET OF 3 CAKE TINS PANTRY DESIGN
+Units sold: 7493
+Revenue: GBP 38,158.39
+
+Question: How many units of SET OF 3 CAKE TINS PANTRY DESIGN were sold?
+Give a concise answer:",7493
+Internal product competition,structured,"Market Research Task
+
+Product A: JUMBO BAG PINK POLKADOT
+Product A revenue: GBP 42,436.24
+Product B: BLACK RECORD COVER FRAME
+Product B revenue: GBP 40,652.13
+
+Research question: Which product generated more revenue?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",JUMBO BAG PINK POLKADOT
+Internal product competition,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product A: JUMBO BAG PINK POLKADOT
+Product A revenue: GBP 42,436.24
+Product B: BLACK RECORD COVER FRAME
+Product B revenue: GBP 40,652.13
+
+Question: Which product generated more revenue?
+Give a concise answer:",JUMBO BAG PINK POLKADOT
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Italy
+Total revenue: GBP 17,483.24
+Total units: 8112
+Total invoices: 38
+Average items per invoice: 213.47
+
+Question: What was the total sales revenue in Italy?
+Give a concise answer:","GBP 17,483.24"
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Channel Islands
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Channel Islands?
+Give a concise answer:",Cannot determine market share from the available data.
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: CHOCOLATE HOT WATER BOTTLE
+Units sold: 6025
+Revenue: GBP 32,866.18
+
+Question: How many units of CHOCOLATE HOT WATER BOTTLE were sold?
+Give a concise answer:",6025
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: France
+Total units: 112103
+Total invoices: 392
+Average items per invoice: 285.98
+
+Question: What was the average number of items per invoice in France?
+Give a concise answer:",285.98
+Consumer purchasing behavior,direct,"Data:
+Country: Germany
+Total units: 119261
+Total invoices: 457
+Average items per invoice: 260.96
+
+Question: What was the average number of items per invoice in Germany?
+Answer:",260.96
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-01
+Previous revenue: GBP 691,364.56
+Current month: 2011-02
+Current revenue: GBP 523,631.89
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-02 compared with 2011-01?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",decreased
+Geographic market analysis,structured,"Market Research Task
+
+Country: Belgium
+Total revenue: GBP 41,196.34
+Total units: 23237
+Total invoices: 98
+Average items per invoice: 237.11
+
+Research question: What was the total sales revenue in Belgium?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 41,196.34"
+Product demand,structured,"Market Research Task
+
+Product: JUMBO BAG STRAWBERRY
+Units sold: 17319
+Revenue: GBP 32,802.53
+
+Research question: How many units of JUMBO BAG STRAWBERRY were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",17319
+External competitor analysis,direct,"Data:
+Country: Portugal
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Portugal?
+Answer:",Cannot determine market share from the available data.
+Geographic market analysis,direct,"Data:
+Country: Spain
+Total revenue: GBP 61,577.11
+Total units: 27940
+Total invoices: 90
+Average items per invoice: 310.44
+
+Question: What was the total sales revenue in Spain?
+Answer:","GBP 61,577.11"
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-04
+Previous revenue: GBP 537,808.62
+Current month: 2011-05
+Current revenue: GBP 770,536.02
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-05 compared with 2011-04?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",increased
+Consumer purchasing behavior,direct,"Data:
+Country: France
+Total units: 112103
+Total invoices: 392
+Average items per invoice: 285.98
+
+Question: What was the average number of items per invoice in France?
+Answer:",285.98
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: JUMBO BAG RED RETROSPOT
+Units sold: 48474
+Revenue: GBP 94,340.05
+
+Question: How many units of JUMBO BAG RED RETROSPOT were sold?
+Give a concise answer:",48474
+Product demand,structured,"Market Research Task
+
+Product: BLACK RECORD COVER FRAME
+Units sold: 11656
+Revenue: GBP 40,652.13
+
+Research question: How many units of BLACK RECORD COVER FRAME were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",11656
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-09
+Previous revenue: GBP 1,058,590.17
+Current month: 2011-10
+Current revenue: GBP 1,154,979.30
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-10 compared with 2011-09?
+Give a concise answer:",increased
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Portugal
+Total revenue: GBP 33,747.10
+Total units: 16258
+Total invoices: 58
+Average items per invoice: 280.31
+
+Question: What was the total sales revenue in Portugal?
+Give a concise answer:","GBP 33,747.10"
+External competitor analysis,direct,"Data:
+Country: Channel Islands
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Channel Islands?
+Answer:",Cannot determine market share from the available data.
+External competitor analysis,structured,"Market Research Task
+
+Country: Japan
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in Japan?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Spain
+Total revenue: GBP 61,577.11
+Total units: 27940
+Total invoices: 90
+Average items per invoice: 310.44
+
+Question: What was the total sales revenue in Spain?
+Give a concise answer:","GBP 61,577.11"
+Geographic market analysis,structured,"Market Research Task
+
+Country: Italy
+Total revenue: GBP 17,483.24
+Total units: 8112
+Total invoices: 38
+Average items per invoice: 213.47
+
+Research question: What was the total sales revenue in Italy?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 17,483.24"
+External competitor analysis,direct,"Data:
+Country: Belgium
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Belgium?
+Answer:",Cannot determine market share from the available data.
+Product demand,structured,"Market Research Task
+
+Product: JUMBO BAG RED RETROSPOT
+Units sold: 48474
+Revenue: GBP 94,340.05
+
+Research question: How many units of JUMBO BAG RED RETROSPOT were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",48474
+External competitor analysis,structured,"Market Research Task
+
+Country: EIRE
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Research question: What is the retailer's market share relative to competitors in EIRE?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",Cannot determine market share from the available data.
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Italy
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Italy?
+Give a concise answer:",Cannot determine market share from the available data.
+Internal product competition,direct,"Data:
+Product A: DOTCOM POSTAGE
+Product A revenue: GBP 206,248.77
+Product B: REGENCY CAKESTAND 3 TIER
+Product B revenue: GBP 174,484.74
+
+Question: Which product generated more revenue?
+Answer:",DOTCOM POSTAGE
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Finland
+Total revenue: GBP 22,546.08
+Total units: 10704
+Total invoices: 41
+Average items per invoice: 261.07
+
+Question: What was the total sales revenue in Finland?
+Give a concise answer:","GBP 22,546.08"
+Geographic market analysis,structured,"Market Research Task
+
+Country: Finland
+Total revenue: GBP 22,546.08
+Total units: 10704
+Total invoices: 41
+Average items per invoice: 261.07
+
+Research question: What was the total sales revenue in Finland?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 22,546.08"
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-06
+Previous revenue: GBP 761,739.90
+Current month: 2011-07
+Current revenue: GBP 719,221.19
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-07 compared with 2011-06?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",decreased
+Consumer purchasing behavior,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: United Kingdom
+Total units: 4662390
+Total invoices: 18019
+Average items per invoice: 258.75
+
+Question: What was the average number of items per invoice in United Kingdom?
+Give a concise answer:",258.75
+Geographic market analysis,direct,"Data:
+Country: EIRE
+Total revenue: GBP 283,453.96
+Total units: 147173
+Total invoices: 288
+Average items per invoice: 511.02
+
+Question: What was the total sales revenue in EIRE?
+Answer:","GBP 283,453.96"
+Product demand,direct,"Data:
+Product: WHITE HANGING HEART T-LIGHT HOLDER
+Units sold: 37891
+Revenue: GBP 106,292.77
+
+Question: How many units of WHITE HANGING HEART T-LIGHT HOLDER were sold?
+Answer:",37891
+Market trends,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Previous month: 2011-04
+Previous revenue: GBP 537,808.62
+Current month: 2011-05
+Current revenue: GBP 770,536.02
+
+Question: Did sales revenue increase, decrease, or remain unchanged in 2011-05 compared with 2011-04?
+Give a concise answer:",increased
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: PICNIC BASKET WICKER 60 PIECES
+Units sold: 61
+Revenue: GBP 39,619.50
+
+Question: How many units of PICNIC BASKET WICKER 60 PIECES were sold?
+Give a concise answer:",61
+External competitor analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Hong Kong
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Hong Kong?
+Give a concise answer:",Cannot determine market share from the available data.
+Geographic market analysis,structured,"Market Research Task
+
+Country: Denmark
+Total revenue: GBP 18,955.34
+Total units: 8235
+Total invoices: 18
+Average items per invoice: 457.50
+
+Research question: What was the total sales revenue in Denmark?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 18,955.34"
+Geographic market analysis,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Country: Belgium
+Total revenue: GBP 41,196.34
+Total units: 23237
+Total invoices: 98
+Average items per invoice: 237.11
+
+Question: What was the total sales revenue in Belgium?
+Give a concise answer:","GBP 41,196.34"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: JUMBO BAG STRAWBERRY
+Units sold: 17319
+Revenue: GBP 32,802.53
+
+Question: How many units of JUMBO BAG STRAWBERRY were sold?
+Give a concise answer:",17319
+Product demand,structured,"Market Research Task
+
+Product: MEDIUM CERAMIC TOP STORAGE JAR
+Units sold: 78033
+Revenue: GBP 81,700.92
+
+Research question: How many units of MEDIUM CERAMIC TOP STORAGE JAR were sold?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",78033
+External competitor analysis,direct,"Data:
+Country: Switzerland
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+Question: What is the retailer's market share relative to competitors in Switzerland?
+Answer:",Cannot determine market share from the available data.
+Geographic market analysis,structured,"Market Research Task
+
+Country: France
+Total revenue: GBP 209,715.11
+Total units: 112103
+Total invoices: 392
+Average items per invoice: 285.98
+
+Research question: What was the total sales revenue in France?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:","GBP 209,715.11"
+Product demand,direct,"Data:
+Product: SET OF 3 CAKE TINS PANTRY DESIGN
+Units sold: 7493
+Revenue: GBP 38,158.39
+
+Question: How many units of SET OF 3 CAKE TINS PANTRY DESIGN were sold?
+Answer:",7493
+Market trends,structured,"Market Research Task
+
+Previous month: 2011-10
+Previous revenue: GBP 1,154,979.30
+Current month: 2011-11
+Current revenue: GBP 1,509,496.33
+
+Research question: Did sales revenue increase, decrease, or remain unchanged in 2011-11 compared with 2011-10?
+
+Instructions:
+1. Use only the supplied data.
+2. Do not make unsupported assumptions.
+3. Return only the answer.
+
+Result:",increased
+Geographic market analysis,direct,"Data:
+Country: Channel Islands
+Total revenue: GBP 20,450.44
+Total units: 9491
+Total invoices: 26
+Average items per invoice: 365.04
+
+Question: What was the total sales revenue in Channel Islands?
+Answer:","GBP 20,450.44"
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: DOTCOM POSTAGE
+Units sold: 706
+Revenue: GBP 206,248.77
+
+Question: How many units of DOTCOM POSTAGE were sold?
+Give a concise answer:",706
+Product demand,role,"You are a market research analyst.
+Use only the supplied research data.
+Do not invent missing information.
+
+Data:
+Product: BLACK RECORD COVER FRAME
+Units sold: 11656
+Revenue: GBP 40,652.13
+
+Question: How many units of BLACK RECORD COVER FRAME were sold?
+Give a concise answer:",11656

@@ -1,0 +1,7 @@
+scenario,original_correct,fine_tuned_correct
+Consumer purchasing behavior,100.0,100.0
+External competitor analysis,0.0,100.0
+Geographic market analysis,100.0,100.0
+Internal product competition,0.0,100.0
+Market trends,66.66666666666666,0.0
+Product demand,83.33333333333334,100.0

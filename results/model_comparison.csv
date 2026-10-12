@@ -1,0 +1,275 @@
+scenario,prompt,expected,original_output,fine_tuned_output,original_correct,fine_tuned_correct
+Geographic market analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Australia
+Total revenue: GBP 138,521.31
+Total units: 83901
+Total invoices: 57
+Average items per invoice: 1471.95
+
+What was the total sales revenue in Australia?
+
+Answer:","GBP 138,521.31","GBP 138,521.31","GBP 138,521.31",True,True
+Geographic market analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Sweden
+Total revenue: GBP 38,378.33
+Total units: 36083
+Total invoices: 36
+Average items per invoice: 1002.31
+
+What was the total sales revenue in Sweden?
+
+Answer:","GBP 38,378.33","GBP 38,378.33","GBP 38,378.33",True,True
+Geographic market analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Singapore
+Total revenue: GBP 21,279.29
+Total units: 5241
+Total invoices: 7
+Average items per invoice: 748.71
+
+What was the total sales revenue in Singapore?
+
+Answer:","GBP 21,279.29","GBP 21,279.29","GBP 21,279.29",True,True
+Geographic market analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Cyprus
+Total revenue: GBP 13,590.38
+Total units: 6361
+Total invoices: 16
+Average items per invoice: 397.56
+
+What was the total sales revenue in Cyprus?
+
+Answer:","GBP 13,590.38","GBP 13,590.38","GBP 13,590.38",True,True
+Consumer purchasing behavior,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Australia
+Total units: 83901
+Total invoices: 57
+Average items per invoice: 1471.95
+
+What was the average number of items per invoice in Australia?
+
+Answer:",1471.95,1471.95,1471.95,True,True
+Consumer purchasing behavior,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Sweden
+Total units: 36083
+Total invoices: 36
+Average items per invoice: 1002.31
+
+What was the average number of items per invoice in Sweden?
+
+Answer:",1002.31,1002.31,1002.31,True,True
+Consumer purchasing behavior,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Singapore
+Total units: 5241
+Total invoices: 7
+Average items per invoice: 748.71
+
+What was the average number of items per invoice in Singapore?
+
+Answer:",748.71,748.71,748.71,True,True
+Consumer purchasing behavior,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Cyprus
+Total units: 6361
+Total invoices: 16
+Average items per invoice: 397.56
+
+What was the average number of items per invoice in Cyprus?
+
+Answer:",397.56,397.56,397.56,True,True
+Product demand,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product: REGENCY CAKESTAND 3 TIER
+Units sold: 13879
+Revenue: GBP 174,484.74
+
+How many units of REGENCY CAKESTAND 3 TIER were sold?
+
+Answer:",13879,13879,13879,True,True
+Product demand,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product: ASSORTED COLOUR BIRD ORNAMENT
+Units sold: 36461
+Revenue: GBP 59,094.93
+
+How many units of ASSORTED COLOUR BIRD ORNAMENT were sold?
+
+Answer:",36461,36461,36461,True,True
+Product demand,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product: DOORMAT KEEP CALM AND COME IN
+Units sold: 5491
+Revenue: GBP 38,166.64
+
+How many units of DOORMAT KEEP CALM AND COME IN were sold?
+
+Answer:",5491,5491,5491,True,True
+Product demand,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product: VICTORIAN GLASS HANGING T-LIGHT
+Units sold: 24304
+Revenue: GBP 33,187.97
+
+How many units of VICTORIAN GLASS HANGING T-LIGHT were sold?
+
+Answer:",24304,24304,24304,True,True
+Product demand,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product: PAPER CHAIN KIT VINTAGE CHRISTMAS
+Units sold: 10604
+Revenue: GBP 32,873.34
+
+How many units of PAPER CHAIN KIT VINTAGE CHRISTMAS were sold?
+
+Answer:",10604,10604,10604,True,True
+Product demand,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product: SET OF 3 REGENCY CAKE TINS
+Units sold: 6357
+Revenue: GBP 31,177.95
+
+How many units of SET OF 3 REGENCY CAKE TINS were sold?
+
+Answer:",6357,"6357 Revenue: GBP 31,177.95",6357,False,True
+Market trends,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Previous month: 2010-12
+Previous revenue: GBP 823,746.14
+Current month: 2011-01
+Current revenue: GBP 691,364.56
+
+Did sales revenue increase, decrease, or remain unchanged in 2011-01 compared with 2010-12?
+
+Answer:",decreased,decreased,increased,True,False
+Market trends,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Previous month: 2011-03
+Previous revenue: GBP 717,639.36
+Current month: 2011-04
+Current revenue: GBP 537,808.62
+
+Did sales revenue increase, decrease, or remain unchanged in 2011-04 compared with 2011-03?
+
+Answer:",decreased,decreased,increased,True,False
+Market trends,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Previous month: 2011-11
+Previous revenue: GBP 1,509,496.33
+Current month: 2011-12
+Current revenue: GBP 638,792.68
+
+Did sales revenue increase, decrease, or remain unchanged in 2011-12 compared with 2011-11?
+
+Answer:",decreased,increase,increased,False,False
+Internal product competition,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product A: MEDIUM CERAMIC TOP STORAGE JAR
+Product A revenue: GBP 81,700.92
+Product B: Manual
+Product B revenue: GBP 78,112.82
+
+Which product generated more revenue?
+
+Answer:",MEDIUM CERAMIC TOP STORAGE JAR,Product A,MEDIUM CERAMIC TOP STORAGE JAR,False,True
+Internal product competition,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Product A: PAPER CHAIN KIT 50'S CHRISTMAS
+Product A revenue: GBP 64,952.29
+Product B: ASSORTED COLOUR BIRD ORNAMENT
+Product B revenue: GBP 59,094.93
+
+Which product generated more revenue?
+
+Answer:",PAPER CHAIN KIT 50'S CHRISTMAS,Product A,PAPER CHAIN KIT 50'S CHRISTMAS,False,True
+External competitor analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Australia
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+What is the retailer's market share relative to competitors in Australia?
+
+Answer:",Cannot determine market share from the available data.,Total market share,Cannot determine market share from the available data.,False,True
+External competitor analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Sweden
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+What is the retailer's market share relative to competitors in Sweden?
+
+Answer:",Cannot determine market share from the available data.,Total market sales,Cannot determine market share from the available data.,False,True
+External competitor analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Singapore
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+What is the retailer's market share relative to competitors in Singapore?
+
+Answer:",Cannot determine market share from the available data.,Total market sales,Cannot determine market share from the available data.,False,True
+External competitor analysis,"Analyze the following retail information.
+Answer using only the provided facts.
+If the information is insufficient, say so.
+
+Country: Cyprus
+Available information: sales transactions from one retailer.
+External competitor sales: unavailable.
+Total market sales: unavailable.
+
+What is the retailer's market share relative to competitors in Cyprus?
+
+Answer:",Cannot determine market share from the available data.,Total market shares,Cannot determine market share from the available data.,False,True
